@@ -1,0 +1,67 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.title { 
+font-family: 'Roboto' ;
+color: #fff;
+}
+
+.faded-title {
+color: rgba(255, 255, 255, 0.384);
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-nav li {
+  display: flex;
+  align-content: space-between;
+  flex-direction: row;
+  border: solid #fff;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 10px;
+}
+
+.header {
+  background-image: url("media/colors.png");
+  position: relative;
+  z-index: 1;
+  height: 380px;
+}
+
+.profile {
+  position:absolute;
+  left: 40%;
+  top: 245px;
+  width: 150px;
+  z-index: 2;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  border: solid #fff 3px;
+}
+
+.red {
+  color: #FA382F;
+}
+
+.blue {
+  background-color:#072bce;
+  color: #fff;
+}
+
+.gray {
+  background-color: #F4F4F4;
+}
+
+.pink {
+  background-color: #FDDFE7;
+}
+
+.white {
+  background-color: #FFFFFF;
+}
