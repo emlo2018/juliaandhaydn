@@ -3,14 +3,18 @@ body {
   margin: 0;
 }
 
-.top {
-  background-color: #F4F4F4 ;
-}
-
 p {
   margin: 20px;
   padding: 15px;
   word-spacing: 0.1em;
+}
+
+a {
+  text-decoration:none;
+}
+
+.top {
+  background-color: #F4F4F4 ;
 }
 
 .title { 
@@ -94,9 +98,28 @@ justify-content: space-evenly;
   padding: 5px;
 }
 
+.featured h4 {
+  background-color: #FDDFE7;
+  color: #000;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.projects {
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.project h4 {
+ display: inline;
+}
+
 .big-red {
   color: #FA382F;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .thoughts {
@@ -113,26 +136,35 @@ justify-content: space-evenly;
 
 .skills {
   background-color: #F4F4F4;
-  justify-items: center;
-  display: grid;
+ 
 }
 
 .skills h1 {
   background-color: #FA382F;
   color: #FFFFFF;
-  display: inline-flex;
   padding: 5px;
+  display: inline;
+}
+
+.skills ul {
+ display: flex;
+ flex-direction: column;
 }
 
 .more-info {
   justify-items: center;
   display: grid;
+
 }
 
 .more-info a {
   text-decoration: none;
-  margin: 10px;
+  cursor: pointer;
   color: #FA382F;
+  justify-content: space-evenly;
+  grid-area: 1/2/4/6;
+  margin: 30px;
+  width: 50px;
 }
 
 .more-info h1 {
@@ -140,6 +172,14 @@ justify-content: space-evenly;
   color: #FFFFFF;
   display: inline-flex;
   padding: 5px;
+}
+
+.more-info img {
+  border: solid #FA382F;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
 }
 
 ul {
