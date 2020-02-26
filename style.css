@@ -1,19 +1,41 @@
 body {
   font-family: 'Montserrat';
+  margin: 0;
+}
+
+.top {
+  background-color: #F4F4F4 ;
+}
+
+p {
+  margin: 20px;
+  padding: 15px;
+  word-spacing: 0.1em;
 }
 
 .title { 
 font-family: 'Roboto' ;
 color: #fff;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+padding: 0;
 }
 
 .faded-title {
 color: rgba(255, 255, 255, 0.384);
+flex-direction: row;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 }
 
-.top-nav {
+.top-nav ul {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .top-nav li {
@@ -30,19 +52,118 @@ color: rgba(255, 255, 255, 0.384);
   background-image: url("media/colors.png");
   position: relative;
   z-index: 1;
-  height: 380px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile {
   position:absolute;
   left: 40%;
-  top: 245px;
+  top: 285px;
   width: 150px;
   z-index: 2;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
-  border: solid #fff 3px;
+  border: solid #fff 2px;
+}
+
+.tech {
+  justify-items: center;
+  display: grid;
+}
+
+.tech h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+}
+
+.featured {
+  background-color: #F4F4F4;
+  justify-items: center;
+  display: grid;
+}
+
+.featured h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+}
+
+.big-red {
+  color: #FA382F;
+  text-transform: capitalize;
+}
+
+.thoughts {
+  justify-items: center;
+  display: grid;
+}
+
+.thoughts h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+}
+
+.skills {
+  background-color: #F4F4F4;
+  justify-items: center;
+  display: grid;
+}
+
+.skills h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+}
+
+.more-info {
+  justify-items: center;
+  display: grid;
+}
+
+.more-info a {
+  text-decoration: none;
+  margin: 10px;
+  color: #FA382F;
+}
+
+.more-info h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  margin:30px;
+  align-items: center;
+}
+
+
+.red-line {
+  width: 25px;
 }
 
 .red {
