@@ -20,6 +20,8 @@ a {
 
 ul {
   list-style: none;
+}
+header ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -40,7 +42,7 @@ align-items: center;
 }
 
 .faded-title {
-color: rgba(255, 255, 255, 0.384);
+color: rgba(255, 255, 255, 0.664);
 flex-direction: row;
 display: flex;
 flex-direction: row;
@@ -59,10 +61,10 @@ justify-content: space-evenly;
 }
 
 .header {
-  background-image: url("media/cover.jpg");
+  background-image: url("media/cover.png");
   position: relative;
   z-index: 1;
-  height: 520px;
+  height: 560px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +74,7 @@ justify-content: space-evenly;
 .profile {
   position:absolute;
   left: 45%;
-  top: 375px;
+  top: 420px;
   width: 150px;
   z-index: 2;
   border-radius: 50%;
@@ -86,6 +88,13 @@ justify-content: space-evenly;
   text-transform: uppercase;
 }
 
+.small-red {
+  color: #FA382F;
+  display: center;
+  margin: 24px;
+  text-transform: uppercase;
+}
+
 .tech {
   justify-items: center;
   display: grid;
@@ -96,6 +105,7 @@ justify-content: space-evenly;
   color: #FFFFFF;
   display: inline-flex;
   padding: 5px;
+  margin: 16px;
 }
 
 .featured {
@@ -116,6 +126,7 @@ justify-content: space-evenly;
   color: #FFFFFF;
   display: inline-flex;
   padding: 5px;
+  margin: 16px;
 }
 
 .featured h4 {
@@ -155,6 +166,7 @@ justify-content: space-evenly;
   color: #FFFFFF;
   display: inline-flex;
   padding: 5px;
+  margin: 24px;
 }
 
 .more {
@@ -185,8 +197,9 @@ justify-content: space-evenly;
 .skills ul {
  display: flex;
  flex-direction: column;
- padding-left: 30px;
- width: 50%;
+ padding-left: 20px;
+ margin-bottom: 20px;
+ justify-content: space-around;
 }
 
 .more-info {
@@ -210,13 +223,24 @@ justify-content: space-evenly;
   padding: 5px;
 }
 
+.more-info ul {
+  display: flex;
+  flex-direction: row;
+}
+
 footer div {
   display: flex;
   flex-direction: column;
   margin:30px;
+  font-weight: 300;
   align-items: center;
 }
 
+.blue {
+  background-color:#072bce;
+  color: #fff;
+  padding: 3rem;
+}
 
 .red-line {
   width: 25px;
@@ -226,10 +250,6 @@ footer div {
   color: #FA382F;
 }
 
-.blue {
-  background-color:#072bce;
-  color: #fff;
-}
 /*
 gray #F4F4F4
 
