@@ -21,6 +21,7 @@ a {
 ul {
   list-style: none;
 }
+
 header ul {
   display: flex;
   flex-direction: row;
@@ -39,25 +40,25 @@ flex-wrap: wrap;
 padding: 0;
 justify-content: space-evenly;
 align-items: center;
+font-size: larger;
 }
 
 .faded-title {
 color: rgba(255, 255, 255, 0.856);
-flex-direction: row;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
+font-family: 'roboto';
 }
 
 .top-nav li {
   display: flex;
-  align-content: space-between;
+  
   flex-direction: row;
   border: solid #fff;
   border-radius: 100%;
   padding: 5px;
-  margin: 10px;
-  width: 12%;
+  margin: 1px;
 }
 
 .header {
@@ -93,6 +94,11 @@ justify-content: space-evenly;
   display: center;
   margin: 24px;
   text-transform: uppercase;
+  display: inline-flex;
+}
+
+.title-white {
+  font-size: smaller; 
 }
 
 .tech {
@@ -115,6 +121,7 @@ justify-content: space-evenly;
   margin-bottom: 30px;
   display: grid;
   flex-direction: column;
+  font-family: 'roboto';
 }
 
 .featured a {
@@ -149,6 +156,7 @@ justify-content: space-evenly;
   margin-left: 5%;
   margin-top: 30px;
   margin-bottom: 50px;
+  font-family: 'roboto';
 }
 
 .project h4 {
@@ -159,6 +167,7 @@ justify-content: space-evenly;
   justify-items: center;
   display: grid;
   padding: 30px;
+  font-family: 'roboto';
 }
 
 .thoughts h1 {
@@ -169,8 +178,15 @@ justify-content: space-evenly;
   margin: 24px;
 }
 
+.thoughts p {
+  margin-left: 0px;
+  margin-right: 10px;
+  padding: 0;
+}
+
 .more {
   padding: 30px;
+  font-family: 'roboto';
 }
 
 .title-red {
@@ -185,6 +201,7 @@ justify-content: space-evenly;
   background-color: #F4F4F4;
   display: flex;
   flex-wrap: wrap;
+  /*font-family: 'avenir black';*/
 }
 
 .skills h1 {
@@ -204,8 +221,16 @@ justify-content: space-evenly;
 
 .more-info {
   justify-items: center;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  font-family: 'roboto';
+}
+
+.more-info h1 {
+  background-color: #FA382F;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding: 5px;
+  margin: 24px;
 }
 
 .more-info a {
@@ -221,13 +246,6 @@ justify-content: space-evenly;
   margin: 20px;
 }
 
-.more-info h1 {
-  background-color: #FA382F;
-  color: #FFFFFF;
-  display: inline-flex;
-  padding: 5px;
-}
-
 .more-info .row {
   display: flex;
   flex-direction: row;
@@ -235,10 +253,10 @@ justify-content: space-evenly;
   margin: 10px;
 }
 
-footer div {
+footer article {
   display: flex;
   flex-direction: column;
-  margin:30px;
+  margin:25px;
   font-weight: 300;
   align-items: center;
 }
@@ -247,6 +265,17 @@ footer div {
   background-color:#072bce;
   color: #fff;
   padding: 3rem;
+  font-family: 'roboto';
+}
+
+.blue h2 {
+  font-family: 'montserrat';
+  padding: 16px;
+}
+
+.blue h4 {
+  font-family: 'montserrat';
+  padding: 8px;
 }
 
 .red-line {
@@ -257,9 +286,3 @@ footer div {
   color: #FA382F;
 }
 
-/*
-gray #F4F4F4
-
-pink #FDDFE7
-
-white #FFFFFF */
