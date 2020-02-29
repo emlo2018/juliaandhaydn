@@ -37,7 +37,7 @@ header ul {
 .title { 
 color: #fff;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 flex-wrap: wrap;
 padding: 0;
 justify-content: space-evenly;
@@ -49,7 +49,7 @@ font-size: larger;
 color: rgba(255, 255, 255, 0.856);
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
+justify-content: space-between;
 font-family: 'roboto';
 }
 
@@ -58,8 +58,11 @@ font-family: 'roboto';
  flex-direction: row;
  border: solid #fff;
  border-radius: 100%;
- padding: 5px;
+ padding: 10px;
  margin: 3px;
+ width: 45px;
+ height: 45px;
+ justify-content: space-around;
 }
 
 .header {
@@ -73,13 +76,13 @@ font-family: 'roboto';
   padding:2rem;
 }
 
-header h4 {
+header h6 {
   padding-right: 12px;
 }
 
 .profile {
   position:absolute;
-  left: 45%;
+  left: 55%;
   top: 420px;
   width: 150px;
   z-index: 2;
@@ -306,5 +309,74 @@ footer article {
 
 .red {
   color: #FA382F;
+}
+
+/*** Media Queries ***/
+
+@media (min-width: 650px) and (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(118, 47, 250);
+  }
+
+  p {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 15px;
+    word-spacing: 0.1em;
+  }
+
+  .profile {
+    position:absolute;
+    left: 65%;  
+  }
+  
+  .title { 
+    color: #fff;
+    display: inline-block; 
+    margin-left: 25%;
+    }
+
+    .faded-title { 
+      display: inline-block; 
+      margin-left: 25%;
+    }
+
+}
+
+@media (min-width: 1025px) {
+ body {
+   display: flex;
+   flex-direction: column;
+ }
+
+ p {
+  margin-inline-start: 25%;
+  margin-inline-end: 25%;
+  padding: 15px;
+  word-spacing: 0.1em;
+ }
+
+ header h1 {
+  padding-right: 12px;
+}
+
+ .profile {
+  position:absolute;
+  left: 65%;  
+}
+
+.title { 
+  color: #fff;
+  display: inline-block; 
+  flex-direction: column;
+  margin-left: 25%;
+  font-size: xx-large;
+  }
+
+.faded-title { 
+  display: inline-block; 
+  }
 }
 
