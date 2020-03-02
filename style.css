@@ -197,6 +197,10 @@ padding: 30px;
 font-family: 'roboto';
 }
 
+.desktop {
+  display: none;
+}
+
 .thoughts img {
 width: 100%;
 height: auto;
@@ -341,8 +345,14 @@ text-transform: uppercase;
   body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(118, 47, 250);
   }
+
+  p {
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    padding: 15px;
+    word-spacing: 0.1em;
+   }
 
 }
 
@@ -369,7 +379,6 @@ text-transform: uppercase;
 }
 
  .title { 
-  color: #fff;
   display: inline-block; 
   flex-direction: column;
   margin-left: 25%;
@@ -388,11 +397,45 @@ text-transform: uppercase;
   font-family: 'Montserrat';
   padding-left: 200px;
   padding-right: 200px;
+  flex-direction: row;
+  }
+
+  .title-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card {
   justify-content: flex-start;
-  width: 50%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+
+  .card a {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  }
+
+  .card img {
+    background-image: cover;
+    filter: brightness(0.8);
+    margin-bottom: 15px;
+    width: 90%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+.other-projects {
+  padding-left: 200px;
+  padding-right: 20px;
+}
+
+  .desktop {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
   }
 
   .skills ul {
@@ -421,6 +464,18 @@ text-transform: uppercase;
 .thoughts h1 {
 justify-items: center;
 display: grid;
+}
+
+article .skills-list {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+  padding-left: 30px; 
+}
+
+.skills ul {
+  margin-left: 0;
+  width: max-content;
 }
 
 }
