@@ -108,7 +108,7 @@ flex-direction: column;
 max-width: max-content;
 }
 
-.small-red {
+.skinny-red {
 color: #FA382F;
 margin: 24px;
 text-transform: uppercase;
@@ -366,6 +366,14 @@ text-transform: uppercase;
     word-spacing: 0.1em;
    }
 
+  .title {
+     padding-left: 300px;
+   }
+
+   .row {
+   padding-right: 110px;
+   }
+
 }
 
 @media (min-width: 1025px) {
@@ -385,9 +393,9 @@ text-transform: uppercase;
   padding-right: 12px;
 }
 
- .profile {
-  position:absolute;
-  left: 65%;  
+.profile {
+  position: absolute;
+  left: 70%;
 }
 
  .title { 
@@ -407,8 +415,8 @@ text-transform: uppercase;
 
  .featured { 
   font-family: 'Montserrat';
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
   flex-direction: row;
   }
 
@@ -430,6 +438,10 @@ text-transform: uppercase;
   flex-wrap: wrap;
   }
 
+  .card h2 {
+    padding-right: 50px;
+  }
+
   .card img {
     background-image: cover;
     filter: brightness(0.8);
@@ -440,7 +452,7 @@ text-transform: uppercase;
   }
 
 .other-projects {
-  padding-left: 200px;
+  padding-left: 300px;
   padding-right: 20px;
 }
 
@@ -455,7 +467,7 @@ text-transform: uppercase;
   margin-left: 150px ;
  }
 
- .small-red {
+ .skinny-red {
   display: flex;
   flex-direction: column;
   align-items: center;
