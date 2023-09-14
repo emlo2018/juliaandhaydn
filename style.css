@@ -100,7 +100,7 @@ border: solid #fff 2px;
 
 .big-red {
 color: #FFFFFF;
-background-color: #FA382F;
+background-color: #bd2ffa;
 text-transform: uppercase;
 padding: 5px;
 margin-top: 10px;
@@ -109,7 +109,7 @@ max-width: max-content;
 }
 
 .skinny-red {
-color: #FA382F;
+color: #6f2ffa;
 margin: 24px;
 text-transform: uppercase;
 display: flex;
@@ -221,7 +221,7 @@ margin: 16px;
 }
 
 .thoughts h1 {
-background-color: #FA382F;
+background-color: #fa2f9b;
 color: #FFFFFF;
 display: inline-flex;
 padding: 5px;
@@ -296,7 +296,7 @@ margin: 24px;
 .link-row {
   display: flex;
   flex-direction: row;
-  color: #FA382F;
+  color: #4e3837;
   align-content: center;
   justify-content: space-between;
   padding-left: 10px;
@@ -315,7 +315,7 @@ padding: 10px;
 width: 45px;
 height: 45px;
 justify-content: center;
-border: #FA382F solid 2px;
+border: #8cf5ca solid 2px;
 border-radius: 100px;
 margin:10px;
 }
@@ -331,7 +331,7 @@ align-items: center;
 }
 
 .blue {
-background-color:#072bce;
+background-color:#b2bded;
 color: #fff;
 padding: 3rem;
 font-family: 'roboto';
@@ -348,7 +348,7 @@ padding: 8px;
 }
 
 .red {
-color: #FA382F;
+color: #dbaed9;
 text-transform: uppercase;
 }
 
