@@ -100,16 +100,16 @@ border: solid #fff 2px;
 
 .big-red {
 color: #FFFFFF;
-background-color: #bd2ffa;
+background-color: #db2385;
 text-transform: uppercase;
 padding: 5px;
 margin-top: 10px;
 flex-direction: column;
-max-width: max-content;
+max-width: max-content; 
 }
 
 .skinny-red {
-color: #6f2ffa;
+color: #ae60fc;
 margin: 24px;
 text-transform: uppercase;
 display: flex;
