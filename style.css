@@ -66,7 +66,8 @@ font-family: 'Whisper';
 }
 
 .header {
-background-image: url("media/1000002481.jpg");
+/*background-image: url("media/1000002470.jpg");*/
+background-color: #ba2976;
 position: relative;
 z-index: 1;
 height: 460px;
