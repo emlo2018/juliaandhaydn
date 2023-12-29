@@ -21,6 +21,7 @@ a {
 
 ul {
   list-style: none;
+  min-width: 15px;
 }
 
 .li {
@@ -29,7 +30,7 @@ ul {
   top: 100%;
   border-radius: 100px;
   cursor: grab;
-
+ 
   }
   
 
@@ -324,8 +325,8 @@ margin: 24px;
   flex-direction: row;
   color: #4e3837;
   align-content: center;
-  justify-content: space-between;
-  padding-left: 10px;
+  justify-content: space-evenly;
+  padding-left: 5px;
 }
 
 .link-row h6 {
