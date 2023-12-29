@@ -33,6 +33,7 @@ ul {
   
 
   iframe {
+  display: inline-block;
     
   }
 /** Header img and profile**/
