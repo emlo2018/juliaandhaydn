@@ -29,12 +29,13 @@ ul {
   top: 100%;
   border-radius: 100px;
   cursor: grab;
+
   }
   
 
   iframe {
   display: inline-block;
-    
+  width: 95%;
   }
 /** Header img and profile**/
 
@@ -232,7 +233,6 @@ line-height: 2.5rem;
 justify-items: center;
 display: grid;
 padding: 30px;
-font-family: 'roboto';
 }
 
 .desktop {
