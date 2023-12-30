@@ -5,6 +5,7 @@
 
 body {
 font-family: 'Montserrat';
+font-size: large;
 }
 
 p {
@@ -21,18 +22,14 @@ a {
 
 ul {
   list-style: none;
-  min-width: 15px;
 }
 
 .li {
   position:flex;
   left: 70%;
   top: 100%;
-  border-radius: 100px;
   cursor: grab;
- 
   }
-  
 
   iframe {
   display: inline-block;
@@ -225,7 +222,14 @@ line-height: 2.5rem;
 
 .projects {
   display: flex;
+  flex-direction: column;
+}
+
+.projects ul {
   justify-content: center;
+}
+.projects li {
+  border: none;
 }
 
 /** Section thought**/
