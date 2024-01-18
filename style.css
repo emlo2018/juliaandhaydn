@@ -77,8 +77,8 @@ font-family: 'Whisper';
 }
 
 .header {
-background-image: url("https://images.unsplash.com/photo-1528460033278-a6ba57020470?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D");
-/*background-color: #574f46;*/
+/*background-image: url("https://images.unsplash.com/photo-1543157145-f78c636d023d?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+background-color: #f1ebe4;
 position: relative;
 z-index: 1;
 height: 460px;
@@ -563,4 +563,3 @@ article .skills-list {
 }
 
 }
-
