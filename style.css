@@ -94,7 +94,7 @@ padding:6rem;
 }
 
 .header {
-background-image: url("media/1000002483.jpg");
+background-color: #f1ebe4;
 background-repeat: no-repeat;
 background-size:cover;
 position: relative;
@@ -138,6 +138,10 @@ padding: 5px;
 margin-top: 10px;
 flex-direction: column;
 max-width: max-content; 
+}
+
+.style-bold {
+  font-weight: bold;
 }
 
 .skinny-red {
