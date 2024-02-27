@@ -81,16 +81,29 @@ font-family: 'Whisper';
  justify-content: space-around;
 }
 
-.header {
-/*background-image: url("media/1000002483.jpg");*/
+.header2 {
+background-image: url("media/1000002483.jpg");
 background-color: #f1ebe4;
 position: relative;
 z-index: 1;
-height: 260px;
+min-height:560px;
 display: flex;
 flex-direction: column;
-justify-content: center;
+justify-content: flex-end;
 padding:6rem;
+}
+
+.header {
+background-image: url("media/1000002483.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+position: relative;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 6rem;
+
+align-items: center;
+display: flex;
 }
 
 header h6 {
