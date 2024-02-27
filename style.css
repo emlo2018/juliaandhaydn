@@ -238,9 +238,6 @@ flex-wrap: wrap;
 .card li {
   display: flex;
   flex-direction: row;
-  border: solid #1b1a1a;
-  border-radius: 100%;
-  padding: 10px;
   margin: 3px;
   width: 45px;
   height: 45px;
