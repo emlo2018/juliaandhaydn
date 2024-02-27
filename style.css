@@ -148,6 +148,12 @@ width: 25px;
   font-family:'Courier New', Courier, monospace;
 }
 
+.allura-regular {
+  font-family: "Allura", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .special-elite-regular {
   font-family: "Special Elite", system-ui;
   font-weight: 400;
