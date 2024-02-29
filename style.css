@@ -85,12 +85,10 @@ font-family: 'Whisper';
 background-color: #f1ebe4;
 position: relative;
 display: flex;
-max-height: 400px;
 flex-direction: column;
 }
 
 .header2 img {
-  margin: auto;
   display: block;
 }
 
@@ -489,7 +487,6 @@ color: #2d2b2d;
    .row {
    padding-right: 110px;
    }
-
 }
 
 @media (min-width: 1025px) {
@@ -577,7 +574,7 @@ color: #2d2b2d;
 
   .card2 img {
     filter: brightness(0.8);
-    margin-bottom: 15px;
+
   }
 
 .other-projects {
