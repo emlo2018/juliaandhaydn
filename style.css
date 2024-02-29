@@ -95,19 +95,18 @@ padding:6rem;
 
 .header {
 background-color: #f1ebe4;
-background-repeat: no-repeat;
-background-size:cover;
-position: relative;
-flex-direction: column;
 flex-wrap: wrap;
-padding: 6rem;
-
-align-items: center;
 display: flex;
+align-content:flex-start;
+padding: 5rem;
 }
 
 header h6 {
 padding-right: 12px;
+}
+
+.logo-invert {
+filter: invert(100%);
 }
 
 .gray {
@@ -192,6 +191,7 @@ text-decoration: underline;
 display: flex;
 flex-direction: column;
 align-items: center;
+padding: 3rem;
 }
 
 .other-projects {
@@ -273,7 +273,7 @@ line-height: 2.5rem;
 .thoughts {
 justify-items: center;
 display: grid;
-padding: 30px;
+padding: 15px;
 }
 
 .desktop {
@@ -281,7 +281,7 @@ padding: 30px;
 }
 
 .thoughts img {
-width: 100%;
+width: 70%;
 height: fit-content;
 height: auto;
 margin: 16px;
@@ -293,6 +293,10 @@ color: #FFFFFF;
 display: inline-flex;
 padding: 5px;
 margin: 24px;
+}
+
+.thoughts h3 {
+ 
 }
 
 .thoughs-title {
@@ -366,7 +370,7 @@ margin: 24px;
   color: #1f1c1c;
   align-content: center;
   justify-content: space-evenly;
-  padding-left: 5px;
+  padding-top: 15px;
   /**font-family:'Courier New', Courier, monospace;**/
 }
 
@@ -390,7 +394,6 @@ margin:10px;
 
 .button {
   background-color: #7d063f;
-  border: #000;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -434,6 +437,12 @@ background-color:#473f8a;
 color: #fff;
 padding: 3rem;
 font-family: 'roboto';
+}
+
+.yellow {
+  background-color: #f1ebe4;
+  padding: 3rem;
+  font-family: 'montserrat';
 }
 
 .blue h2 {
@@ -585,7 +594,7 @@ color: #2d2b2d;
  }
 
  .thoughts img {
-   width: 50%;
+   width: 30%;
  }
 
  .thoughts p {
