@@ -238,7 +238,6 @@ flex-wrap: wrap;
 
 .card img {
   background-image: cover;
-  filter: brightness(0.8);
   margin-bottom: 15px;
   width: 100%;
 }
@@ -280,14 +279,10 @@ margin: 16px;
 }
 
 .thoughts h1 {
-background-color: #fa2f9b;
-color: #FFFFFF;
 display: inline-flex;
-padding: 5px;
-margin: 24px;
 }
 
-.thoughts h3 {
+.bold {
  
 }
 
