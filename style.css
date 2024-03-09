@@ -570,14 +570,12 @@ color: #2d2b2d;
 
   .card img {
     background-image: cover;
-    filter: brightness(0.8);
     margin-bottom: 15px;
     flex-wrap: wrap;
     flex-grow: 1;
   }
 
   .card2 img {
-    filter: brightness(0.8);
 
   }
 
